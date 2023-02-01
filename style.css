@@ -3,4 +3,28 @@
 
   body{
     font-family: 'Rubik Distressed', cursive,sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+
+  .qr-code{
+      width:  250px;
+      border-radius: 10px;
+  }
+  p{
+      font-size: 12px;
+      text-align: center;
+
+      
+
+  }
+  .topic{
+      font-size: 1.1rem;
+      padding-top: 1rem;
+      text-align: center;
   }
